@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits shop</title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <div style="background-color: rgba(211, 211, 211, 0.3)">
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            padding-right: 20px;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 3px;
+              padding-right: 70px;
+            "
+          >
+            <img style="height: 50px; width: 50px" src="./logo.png" alt="" />
+            <b style="font-size: small" class="nav-item">TROPIKO</b>
+          </div>
+          <div>
+            <nav>
+              <ul
+                class="nav-item"
+                style="
+                  list-style: none;
+                  display: flex;
+                  align-items: center;
+                  gap: 40px;
+                "
+              >
+                <li style="font-size: small">Home</li>
+                <li style="font-size: small">Fruits</li>
+                <li style="font-size: small">Services</li>
+                <li style="font-size: small">Contact us</li>
+                <li>
+                  <img
+                    style="height: 15px; width: 15px"
+                    src="./search-icon.png"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <button
+                    style="
+                      background-color: orangered;
+                      height: 25px;
+                      width: 100px;
+                      font-size: x-small;
+                      color: white;
+                      text-align: center;
+
+                      border: none;
+                    "
+                  >
+                    GET A QUOTE
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <a href="#" id="iconbar" onclick="responsive-menu ()"
+            ><i class="fas fa-bar"></i>
+          </a>
+        </div>
+        <br />
+        <div style="display: flex; justify-content: space-around">
+          <div>
+            <h1 class="slidebar">
+              <b>
+                Welcome to Our <br />
+                Fruits Shop</b
+              >
+            </h1>
+            <p class="slidebar">
+              There are many variations of passages of lorem ipsum available,but
+              <br />
+              the majority have suffered alteration in some form,by injected
+              <br />
+              humour or randomised words which don't look even slightly
+              <br />believable
+            </p>
+            <button
+              style="
+                background-color: rgb(255, 77, 0);
+                width: 80px;
+                color: white;
+                height: 25px;
+                border: none;
+              "
+            >
+              Shop Now
+            </button>
+            <button
+              style="
+                background-color: black;
+                color: white;
+                width: 80px;
+                height: 25px;
+                border: none;
+              "
+            >
+              Contact us
+            </button>
+          </div>
+          <div style="text-align: right; margin-top: 30px">
+            <img
+              class="slideimg"
+              style="height: 200px; width: 300px"
+              src="./slide-img.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 50px; display: flex; justify-content: center">
+        <div>
+          <h2 style="text-align: center"><b> Our Services</b></h2>
+          <p style="margin-top: -13px">
+            There are many variations of passages of Lorem Ipsum available,but
+            the majority have
+          </p>
+        </div>
+      </div>
+      <div
+        style="display: flex; justify-content: center; gap: 100px"
+        class="card"
+      >
+        <div
+          style="
+            border: 1px solid rgba(211, 211, 211, 0.3);
+            height: 250px;
+            width: 300px;
+            text-align: center;
+            padding-top: 30px;
+          "
+          class="card"
+        >
+          <img
+            class="card"
+            style="height: 50px; width: 50px"
+            src="./card-item-1.png"
+            alt=""
+          />
+          <p class="card" style="color: rgb(255, 140, 0)">Orange</p>
+          <p class="card">
+            There are many variations of passages <br />
+            of Lorem Ipsum available,but the <br />
+            majority have suffered alteration in <br />
+            some form,by injected by humour or <br />
+            randomised words which don't look <br />
+            even slightly believable.
+          </p>
+        </div>
+        <div
+          class="card"
+          style="
+            border: 1px solid rgba(211, 211, 211, 0.5);
+            height: 250px;
+            width: 300px;
+            text-align: center;
+            padding-top: 30px;
+          "
+        >
+          <img
+            class="card"
+            style="height: 50px; width: 50px"
+            src="./card-item-2.png"
+            alt=""
+          />
+          <p style="color: rgb(255, 140, 0)">Grapes</p>
+          <p class="card">
+            There are many variations of passages <br />
+            of Lorem Ipsum available,but the <br />
+            majority have suffered alteration in <br />
+            some form,by injected by humour or <br />
+            randomised words which don't look <br />
+            even slightly believable.
+          </p>
+        </div>
+        <div
+          class="card"
+          style="
+            border: 1px solid rgba(211, 211, 211, 0.3);
+            height: 250px;
+            width: 300px;
+            text-align: center;
+            padding-top: 30px;
+          "
+        >
+          <img
+            class="card"
+            style="height: 50px; width: 50px"
+            src="./card-item-3.png"
+            alt=""
+          />
+          <p class="card" style="color: rgb(255, 140, 0)">Gauva</p>
+          <p class="card">
+            There are many variations of passages <br />
+            of Lorem Ipsum available,but the <br />
+            majority have suffered alteration in <br />
+            some form,by injected by humour or <br />
+            randomised words which don't look <br />
+            even slightly believable.
+          </p>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 30px">
+        <button
+          style="
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100px;
+            font-size: x-small;
+            text-align: center;
+            border: none;
+          "
+        >
+          Read More
+        </button>
+      </div>
+      <div style="margin-top: 50px">
+        <h2 style="text-align: center"><b> Fresh Fruits </b></h2>
+        <p style="text-align: center; margin-top: -15px">
+          There are many variations of passages of Lorem Ipsum available,but the
+          majority have
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-around">
+        <div>
+          <p style="font-size: x-large">Best Fresh Oranges</p>
+          <p>
+            but the majority have suffered alteration in some form,by injected
+            by humour or randomised <br />
+            words which don't look even slightly believable.If you are going to
+            use a passage of Lorem <br />
+            Ipsum you need to be
+          </p>
+          <button
+            style="
+              height: 30px;
+              width: 100px;
+              background-color: black;
+              color: white;
+              margin-top: 20px;
+              border: none;
+            "
+          >
+            Buy Now
+          </button>
+        </div>
+        <div style="padding-top: 50px">
+          <img style="height: 100px; width: 150px" src="./orange.png" alt="" />
+        </div>
+      </div>
+
+      <div
+        style="display: flex; justify-content: space-around; padding-left: 20px"
+      >
+        <div style="padding-right: 130px">
+          <p style="font-size: x-large">Best Fresh Grapes</p>
+          <p>
+            but the majority have suffered alteration in some form,by injected
+            by humour or randomised <br />
+            words which don't look even slightly believable.If you are going to
+            use a passage of Lorem <br />
+            Ipsum you need to be
+          </p>
+          <button
+            style="
+              height: 30px;
+              width: 100px;
+              background-color: black;
+              color: white;
+              margin-top: 20px;
+              border: none;
+            "
+          >
+            Buy Now
+          </button>
+        </div>
+        <div style="padding-top: 50px; padding-right: 30px">
+          <img style="height: 150px" src="./grapes.png" alt="" />
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-around">
+        <div>
+          <p style="font-size: x-large">Best Fresh Gauva</p>
+          <p>
+            but the majority have suffered alteration in some form,by injected
+            by humour or randomised <br />
+            words which don't look even slightly believable.If you are going to
+            use a passage of Lorem <br />
+            Ipsum you need to be
+          </p>
+          <button
+            style="
+              height: 30px;
+              width: 100px;
+              background-color: black;
+              color: white;
+              margin-top: 20px;
+              border: none;
+            "
+          >
+            Buy Now
+          </button>
+        </div>
+        <div style="padding-top: 50px">
+          <img style="height: 100px; width: 150px" src="./gauva.png" alt="" />
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 70px">
+        <h2>Testominal</h2>
+        <p style="margin-top: -15px">
+          There are many variations of passages of Lorem Ipsum available,but the
+          majority have
+        </p>
+
+        <div style="display: flex; justify-content: center; margin-top: 50px">
+          <img style="height: 200px" src="./client.png" alt="" />
+        </div>
+
+        <div style="display: flex; justify-content: center; font-size: larger">
+          <h4>Johnhex</h4>
+        </div>
+
+        <div style="display: flex; justify-content: center">
+          <p>
+            There are many variations of passages of lorem ipsum available,but
+            the majority have suffered alteration in some from,by injected
+            humour
+            <br />,or randomised words which don't look even slightly
+            believable.If you are <br />
+            going to use a passage of Lorem Ipsum you need to be sure.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+
+      <div style="display: flex; justify-content: space-around">
+        <div>
+          <h1>Contact Us</h1>
+          <input
+            type="text"
+            placeholder="Name"
+            style="border: none; margin-top: 20px"
+          />
+          <div style="border-bottom: 1px solid; width: 600px"></div>
+          <input
+            type="text"
+            placeholder="Phone Number"
+            style="border: none; margin-top: 20px"
+          />
+          <div style="border-bottom: 1px solid; width: 600px"></div>
+          <input
+            type="text"
+            placeholder="Email"
+            style="border: none; margin-top: 20px"
+          />
+          <div style="border-bottom: 1px solid; width: 600px"></div>
+          <input
+            type="text"
+            placeholder="Message"
+            style="border: none; margin-top: 50px"
+          />
+          <div style="border-bottom: 1px solid; width: 600px"></div>
+          <div>
+            <button
+              type="button"
+              style="
+                margin-top: 50px;
+                background-color: rgb(255, 77, 0);
+                width: 100px;
+                text-align: center;
+                height: 30px;
+                color: white;
+                font-size: small;
+                border: none;
+              "
+            >
+              send
+            </button>
+          </div>
+        </div>
+        <div>
+          <img
+            style="height: 250px; margin-top: 70px"
+            src="./orange-dish.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <br /><br /><br /><br />
+      <div style="display: flex; justify-content: space-around" class="fruits">
+        <div>
+          <h4>Fruits</h4>
+          randomised <br />
+          words which <br />
+          don't look even <br />
+          slightly <br />
+          believable.If you <br />
+          are going to use <br />
+          a passage of <br />
+          Lorem Ipsum
+        </div>
+        <div>
+          <h4>Services</h4>
+          randomised <br />
+          words which <br />
+          don't look even <br />
+          slightly <br />
+          believable.If you <br />
+          are going to use <br />
+          a passage of <br />
+          Lorem Ipsum
+        </div>
+        <div>
+          <h4>List</h4>
+          randomised <br />
+          words which <br />
+          don't look even <br />
+          slightly <br />
+          believable.If you <br />
+          are going to use <br />
+          a passage of <br />
+          Lorem Ipsum
+        </div>
+        <div class="Subscribe">
+          <p style="font-size: larger">Follow Us</p>
+          <img style="height: 30px; width: 30px" src="./fb.png" alt="" />
+          <img style="height: 30px; width: 30px" src="./twitter.png" alt="" />
+          <img style="height: 30px; width: 30px" src="./linkedin.png" alt="" />
+          <img style="height: 30px; width: 30px" src="./instagram.png" alt="" />
+          <p style="font-size: larger">Subscribe Now</p>
+          <input type="text" style="width: 150px" /><br /><br />
+          <button
+            type="button"
+            style="
+              background-color: rgb(255, 77, 0);
+              height: 25px;
+              width: 100px;
+              color: white;
+              border: none;
+            "
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div
+        style="
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          background-color: rgb(230, 228, 228);
+          padding-bottom: 10px;
+        "
+      >
+        <div><p>Copyright &copy 2022 All Rights Reserved By Dev Umair</p></div>
+      </div>
+    </div>
+  </body>
+</html>

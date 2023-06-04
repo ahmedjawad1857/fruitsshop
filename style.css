@@ -1,0 +1,20 @@
+@media (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .fruits {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 760px) {
+  .nav-item {
+    visibility: hidden;
+  }
+  #iconbar {
+    font-size: 10px;
+    color: black;
+  }
+}
